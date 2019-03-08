@@ -1,0 +1,112 @@
+truffle migrate --network ropsten
+⚠️  Important ⚠️
+If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
+Try: npm install --save truffle-hdwallet-provider@web3-one
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ropsten-fork'
+> Network id:      3
+> Block gas limit: 8000000
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > account:             0xE4A8E9a0fC38293191302fc5F373f25EAd4c5E04
+   > balance:             5.102421963
+   > gas used:            269908
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000539816 ETH
+
+   -------------------------------------
+   > Total cost:         0.000539816 ETH
+
+
+2_deploy_migrations.js
+======================
+
+   Deploying 'HelloWorld'
+   ----------------------
+   > account:             0xE4A8E9a0fC38293191302fc5F373f25EAd4c5E04
+   > balance:             5.101862127
+   > gas used:            252884
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000505768 ETH
+
+Hello world.
+   -------------------------------------
+   > Total cost:         0.000505768 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001045584 ETH
+
+⚠️  Important ⚠️
+If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
+Try: npm install --save truffle-hdwallet-provider@web3-one
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xdd11c3d007d8b87553e2001e27cd31e49fde202a7969cce22243738d89cb92df
+   > Blocks: 0            Seconds: 5
+   > contract address:    0x66aA4357CA4B0FE2ee37AFf2C1d90922e0492FEa
+   > account:             0xE4A8E9a0fC38293191302fc5F373f25EAd4c5E04
+   > balance:             5.097263619
+   > gas used:            284908
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00569816 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00569816 ETH
+
+
+2_deploy_migrations.js
+======================
+
+   Deploying 'HelloWorld'
+   ----------------------
+   > transaction hash:    0x76b2469828a384ab35519932e9d4667b80ab79a22aecede859e28a17d3c42313
+   > Blocks: 3            Seconds: 49
+   > contract address:    0x6F91d7fCDdc9F4069EF0F86584c268C80a0f6C1c
+   > account:             0xE4A8E9a0fC38293191302fc5F373f25EAd4c5E04
+   > balance:             5.091065259
+   > gas used:            267884
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00535768 ETH
+
+Hello world.
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00535768 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.01105584 ETH

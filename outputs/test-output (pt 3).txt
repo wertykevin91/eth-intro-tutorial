@@ -1,0 +1,14 @@
+> truffle test --network ropsten
+Using network 'ropsten'.
+
+Compiling .\contracts\HelloWorld.sol...
+Compiling .\contracts\Migrations.sol...
+Hello world.
+
+
+  Contract: HelloWorld Contract
+    √ Get hello world message from contract (2699ms)
+    √ test number (7619ms)
+
+
+  2 passing (13s)
